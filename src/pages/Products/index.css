@@ -1,0 +1,11 @@
+.products__top {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    margin-top: 22px;
+}
+
+.products__card {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    padding: 20px 30px;
+}
