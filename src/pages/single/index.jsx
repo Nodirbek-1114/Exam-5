@@ -52,7 +52,7 @@ const Single = () => {
             <div className='md:hidden bg-white rounded-2xl mt-4 p-6 font-semibold text-[#1C1C27] text-lg flex w-full items-center justify-between'>Отзывы <span className='flex gap-4'><img src={star} alt="star icon" /> {data.rating.rate}</span></div>
 
             <div className="flex w-full items-center md:flex-col md:items-end mt-6 gap-5">
-              <Link to='/carts' className="block md:hidden bg-[#101010] rounded-2xl p-[14px]"><img src={basket} alt="cart icon"/></Link>
+              <Link to='/cart' className="block md:hidden bg-[#101010] rounded-2xl p-[14px]"><img src={basket} alt="cart icon"/></Link>
               <Link to='/checkout' className='w-[70%] md:w-[189px]  bg-[#101010] rounded-xl p-3 text-center font-medium text-sm text-white hover:bg-slate-700'>Купить!</Link>
               <Link to='/cart' className='hidden md:block md:flex bg-[#101010] rounded-xl p-3 text-center font-medium text-sm text-white flex items-center gap-2 hover:bg-slate-700'><img src={basket} alt="cart icon" className='sm:hidden md:block' /> Добавить в корзину</Link>
               <Link to='/contact' className="block md:hidden bg-[#43D854] rounded-2xl p-3"><img src={phone} alt="cart icon" /></Link>
