@@ -38,7 +38,7 @@ const Header = () => {
                     }
                 </select>
                 <div className="block md:hidden flex gap-12">
-                    <Link to='/carts'><span className='cart__wrap'>{selector.length}</span><img src={cart} alt="cart icon" className='cursor-pointer' /></Link>
+                    <Link to='/cart'><span className='cart__wrap'>{selector.length}</span><img src={cart} alt="cart icon" className='cursor-pointer' /></Link>
                     <img src={menu} alt="menu icon" className='cursor-pointer' />
                 </div>
             </div>
